@@ -7,7 +7,7 @@
 </head>
 <body>
     <h3>create a new listing</h3>
-    <from method="POST" action="/listings">
+    <form method="POST" action="/listings">
 
         <input name="listing[title]" placeholder="enter title" type="text"/>
         <br></br>
@@ -21,8 +21,8 @@
         <br></br>
         <input name="listing[location]" placeholder="enter location" type="text"/>
         <br></br>
-        <button>add</button>
+        <button type="submit">add</button>
+    </form>
 
-    </from>
 </body>
 </html>
